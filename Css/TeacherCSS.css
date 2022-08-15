@@ -1,0 +1,42 @@
+
+.cardTeacher {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 1%;
+    text-align: center;
+    display: inline-block;
+  }
+  
+.cardTeacher  img{
+    max-width: 100%;
+    max-height: 40%;
+  }
+  
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .cardTeacher  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(44, 130, 156);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cardTeacher a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .cardTeacher  button:hover, a:hover {
+    opacity: 0.7;
+  }

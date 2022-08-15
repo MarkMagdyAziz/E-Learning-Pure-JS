@@ -1,0 +1,59 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+        <link rel="stylesheet" href="Css/RegisterCss.css">
+        <link rel="stylesheet" href="./Css/less1.css">
+    </head>
+
+    <body>
+        <div class="all" id="register">
+
+            <div class="content-t">
+
+                <span class="image">
+                    <img src="https://img.freepik.com/free-vector/geography-teacher-class_74855-5512.jpg?w=1060&t=st=1660512031~exp=1660512631~hmac=abcafa1999403dee65f23f27e0426153edd6173cbf0fe1611248524b32292a11"
+                        alt="image">
+
+                </span>
+
+                <span class="DivLogin">
+
+                    <form action="index.html" method="get" id="signup">
+                        <div id="MsgFrom" class="Denger"></div>
+                        <label for="UserName">User Name</label>
+                        <input type="text" class="inputRe" id="UserName" placeholder="Enter Your  UserName">
+                        <label for="FullName">FullName</label>
+                        <input type="text" placeholder="Enter Your Full Name " id="FullName" name="FullName" required
+                            onkeypress="return isChar(event)"><small></small>
+                        <div class="Denger" id="errorFulName"></div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Your email" id="email" name="email" required>
+                        <small></small>
+                        <label for="UserType" id="utype">User Type</label>
+                        <select name="UserType" id="UserType">
+                            <option value="Student">Student</option>
+                            <option value="Parents">Parents</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+
+                        <label for="pass">Password</label>
+                        <input type="password" class="pass" id="pass" placeholder="Enter Your Password">
+
+                        <label for="RePass">Repeat password</label>
+                        <input type="password" class="pass" id="RePass" placeholder="repeat password.">
+                        <div class="Denger" id="errorpass"></div>
+                        <input type="submit" id="SubForm" class="Submit" value="Register">
+                    </form>
+                </span>
+            </div>
+        </div>
+
+        <script src="JS/JSRegister.js"></script>
+    </body>
+
+</html>

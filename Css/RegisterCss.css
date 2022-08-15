@@ -1,0 +1,188 @@
+body {
+  background-image: url("../img/photo-1.avif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  font-family: 'Roboto', "sans-serif";
+  font-weight: 800;
+  font-size: 28px;
+
+}
+
+.header {
+  width: 100%;
+  height: 30%;
+}
+
+
+input[type=submit]:hover {
+  opacity: 0.7;
+}
+
+.Denger {
+  color: #4CAF50;
+}
+
+
+
+/*register*/
+.Content {
+  width: 100%;
+}
+
+form {
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
+}
+
+form>* {
+  display: block;
+  width: 70%;
+  height: 45px;
+  margin: 5px;
+  margin-left: 15%;
+}
+
+.Submit {
+  cursor: pointer;
+  background-color: #14adf9;
+  color: #fff;
+}
+
+#utype {
+  font-size: 20px;
+  font-weight: 900;
+  color: #14adf9;
+}
+
+.content-t {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.content-t>* {
+  display: inline;
+}
+
+.content-t .image {
+  position: relative;
+  left: 33%;
+}
+
+.image img {
+  width: 40%;
+}
+
+.DivLogin {
+  position: relative;
+  left: 3%;
+}
+
+.DivLogin form {
+  width: 90%;
+}
+
+input {
+  border: 1px solid #0d78ae;
+  font-family: 'Roboto', "sans-serif";
+  font-size: 18px;
+}
+
+select {
+  border: 1px solid #0d78ae;
+  font-family: 'Roboto', "sans-serif";
+  font-size: 18px;
+}
+
+@font-face {
+  src: url(../Fonts/Roboto-Light.ttf);
+  font-family: "Roboto";
+  font-weight: 200;
+
+}
+
+@font-face {
+  src: url(../Fonts/Roboto-Regular.ttf);
+  font-family: "Roboto";
+  font-weight: 400;
+
+
+}
+
+@font-face {
+  src: url(../Fonts/Roboto-Bold.ttf);
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+
+
+@font-face {
+  src: url(../Fonts/DynaPuff_SemiCondensed-Regular.ttf);
+  font-family: "DynaPuff";
+  font-weight: 400;
+
+}
+
+@font-face {
+  src: url(../Fonts/DynaPuff_SemiCondensed-Bold.ttf);
+  font-family: "DynaPuff";
+  font-weight: 600;
+
+}
+
+/* 
+.Content{
+    background-image: url("../img/photo-2.avif");
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: rgb(63, 14, 14);
+    border: 3px rgb(104, 102, 102) outset;
+  width: 30%;
+  height: 70%;
+    
+  
+  text-align: center; 
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(158, 156, 156);
+     padding: 2%;
+}
+
+input[type=text],[type=email],[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+  }
+   
+  */
+/* .Submit{
+margin-bottom: 0%;
+} */

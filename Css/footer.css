@@ -1,0 +1,175 @@
+/*  Start Footer Styles */
+.mkFooter {
+    padding: 20px;
+    color: white;
+    display: flex;
+    background-color: #109bc5;
+    justify-content: space-around;
+}
+
+/* About Style */
+.mkAbout h1 {
+    font-size: 26px;
+    padding: 20px 0 20px 0;
+
+}
+
+.mkAbout img {
+    background-color: var(--white);
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.mkAbout p {
+    /* white-space: pre-line;
+    overflow-wrap: break-word; */
+    word-break: keep-all;
+    width: 300px;
+    line-height: 2.5;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+/* Contact / Support style  */
+.mkContact {
+    padding: 20px;
+    color: white;
+    width: 25%
+}
+
+.mkContact h1 {
+
+    font-size: 26px;
+    padding: 20px 0 20px 0;
+
+}
+
+.mkContact a {
+
+
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.mkContact h2 {
+
+    font-size: 24px;
+    padding: 40px 0 20px 0;
+
+}
+
+.mkContact input {
+    margin-bottom: 20px;
+    display: block;
+    border: none;
+    padding: 10px 40px;
+    color: #a9dde9;
+    background-color: #36a8c7;
+}
+
+.mkContact textarea {
+    display: block;
+    display: inline-block;
+    border: none;
+    color: #a9dde9;
+    background-color: #36a8c7;
+}
+
+.mkContact button {
+    margin: 10px;
+    display: block;
+    font-weight: 600;
+    color: #36abce;
+    padding: 10px 30px;
+}
+
+.mkContact input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    outline: none;
+}
+
+/* Our Locatin Footer Style  */
+.mkLocation {
+    padding: 20px;
+    color: white;
+    width: 25%
+}
+
+.mkLocation h1 {
+
+    font-size: 26px;
+    padding: 20px 0 20px 0;
+
+}
+
+.mkLocation p {
+    line-height: 2;
+}
+
+
+/* Start fredisa Learns Style */
+.fredisaLearnsContainer {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    background-color: var(--white);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fredisaLogo {
+    width: 15%;
+    padding: 8px;
+}
+
+/* .buttonsContainer {
+    padding: 10px;
+
+} */
+
+.buttonsContainer i:hover {
+    cursor: pointer;
+}
+
+.buttonsContainer input[type=button] {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    color: var(--white);
+    padding: 12px;
+    font-weight: 600;
+    margin: 4px;
+}
+
+.buttonsContainer i {
+
+    color: var(--background);
+    opacity: 0.3;
+}
+
+.homeBtn {
+    background-color: #10a0b6;
+}
+
+.coursesBtn {
+    background-color: #d74726;
+}
+
+.lessonsBtn {
+    background-color: #800080;
+}
+
+.tourBtn {
+    background-color: #42ae18;
+}
+
+.signBtn {
+    background-color: #e11e9a
+}
+
+.studyBtn {
+    background-color: #f39317
+}
