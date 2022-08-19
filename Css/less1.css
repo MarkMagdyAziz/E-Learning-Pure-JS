@@ -23,9 +23,6 @@ p {
 
 }
 
-.all>* {
-    display: block;
-}
 
 .container-b {
     display: flex;
