@@ -1,0 +1,157 @@
+body {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  margin: 0;
+  padding: 0;
+}
+
+.header-icons {
+  display: none;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+  width: 100%;
+}
+.loginForm #loginBtn {
+  width: 40%;
+  margin: 10px 0 5px 5px;
+  align-self: center;
+}
+
+.fredisaLearnsContainer {
+  display: none;
+}
+.fredisaLearnsContainer i {
+  display: none;
+}
+
+.fredisaLogo {
+  display: none;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 50vh;
+}
+.buttonsContainer input {
+  width: 100%;
+  margin: 5px;
+}
+
+.humb-icon {
+  display: block;
+  margin: 5px;
+  align-self: baseline;
+  padding: 10px;
+  display: block;
+  color: #48bffb;
+  font-size: 28px;
+}
+.humb-icon:hover {
+  -webkit-animation: pulsate 1s ease-in-out;
+          animation: pulsate 1s ease-in-out;
+}
+
+.slideshow-container {
+  display: none;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    box-shadow: #48bffb 0 0 25px;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: #48bffb 0 0 25px;
+  }
+}
+.immersiveSection {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.left-immersive {
+  width: 90%;
+}
+.left-immersive h1 {
+  align-self: center;
+}
+
+.img-btn-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.img-btn-Container button {
+  padding: 0.4em 0.2em 0.4em 0.2em;
+  margin: 20px;
+}
+
+.cardsBodyContainer {
+  justify-content: center;
+  align-content: center;
+}
+.cardsBodyContainer h1 {
+  align-self: center;
+}
+
+.cardsBodyInner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  align-self: center;
+  width: 80%;
+}
+
+#popular {
+  flex: 100%;
+}
+
+.mkAbout {
+  order: 1;
+  flex: 100%;
+}
+
+.mkContact {
+  padding: 20px;
+  color: white;
+  flex: 50%;
+  order: 2;
+}
+
+.mkLocation {
+  padding: 20px;
+  color: white;
+  flex: 40%;
+  order: 3;
+}
+
+.mkAbout p {
+  width: 100%;
+}/*# sourceMappingURL=s-m-screen.css.map */
