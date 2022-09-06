@@ -16,7 +16,6 @@ body {
 .loginForm {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   justify-content: center;
   align-content: center;
   margin: 10px;
@@ -47,7 +46,7 @@ body {
   height: 50vh;
 }
 .buttonsContainer input {
-  width: 100%;
+  width: 98%;
   margin: 5px;
 }
 
