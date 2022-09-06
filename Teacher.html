@@ -16,31 +16,42 @@
 
     <body>
         <div class="all">
-            <!-- Navbar -->
-            <div class="pageContent" style="text-align: center;">
-                <div class="navbar">
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UC-V4IF1d_RYnApk1CHYH7iQ" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
-                            </li>
-                            <li><a href="https://www.youtube.com/channel/UC-V4IF1d_RYnApk1CHYH7iQ" target="_blank"
-                                    rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></li></a>
-                            <li><a href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><i
-                                        class="fa-brands fa-square-twitter"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- <div class="loginForm">
-
-                        <label for="Username">Username</label>
-                        <input type="text" name="Username" id="Username">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
-                        <input type="button" value="Login" id="loginBtn" onclick="ButLogin()">
-                        <p id="Msg"></p>
-                    </div> -->
+           
+          
+            <div class="navbar">
+                <div class="header-icons">
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC-V4IF1d_RYnApk1CHYH7iQ" target="_blank"
+                                rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/channel/UC-V4IF1d_RYnApk1CHYH7iQ" target="_blank"
+                                rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></li></a>
+                        <li><a href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-square-twitter"></i></a></li>
+                    </ul>
                 </div>
+                <div class="loginForm" id="loginForm">
+
+
+                    <label for="Username">Username</label>
+                    <input type="text" name="Username" id="Username">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+
+                    <input type="button" value="Login" id="loginBtn" onclick="ButLogin()">
+
+                </div>
+                <div class="loggedInMsg" id="loggedInMsg">
+                    <h3>Welcome <span id="WelcUser"></span></h3>
+                    <p id="Msg"></p>
+                </div>
+                <a href="javascript:void(0);" class="humb-icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
                 <!-- fredisa Learns Container -->
                 <div class="fredisaLearnsContainer">
                     <img src="Images/FredisaLearns.png" alt=" FredisaLearns Logo" class="fredisaLogo">
@@ -79,7 +90,6 @@
                 </div>
 
 
-            </div>
         </div>
 
 

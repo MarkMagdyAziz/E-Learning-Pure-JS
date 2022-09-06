@@ -1,0 +1,154 @@
+$primary-color: #48bffb;
+
+body {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    margin: 0;
+    padding: 0;
+}
+.header-icons{
+    display: none;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction:column;
+    // align-items: stretch;
+    justify-content:  center;
+    align-content: center;
+    margin: 10px;
+    width: 100%;
+    #loginBtn {
+    width: 40%;
+    margin:10px 0 5px 5px ;
+    align-self: center;
+    }
+}
+
+
+// Humb Icon 
+.fredisaLearnsContainer{
+    display: none;
+    i {
+    display: none;
+}
+}
+.fredisaLogo{
+    display: none;
+}
+.buttonsContainer {
+    display: flex;
+    flex-direction:column;
+    justify-content:  space-between;
+    align-content: center;
+    height: 50vh;
+    input{
+    width: 98%;
+    margin:5px
+  }
+ 
+}
+
+.humb-icon {
+    display: block;
+    margin: 5px;
+    align-self: baseline;
+    padding: 10px;
+    display: block;
+    color: $primary-color;
+    font-size: 28px;
+    &:hover{
+         animation: pulsate 1s ease-in-out;
+    }
+}
+.slideshow-container{
+    display: none;
+}
+@keyframes pulsate {
+    0%{
+        box-shadow: $primary-color 0 0 25px ;
+    }
+}
+
+.immersiveSection {
+   z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center
+  
+ 
+}
+.left-immersive {
+    width: 90%;
+    h1{
+        align-self: center;
+    }
+}
+
+    
+.img-btn-Container {
+     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+      width: 80%;
+}
+
+.img-btn-Container button {
+    padding: 0.4em .2em 0.4em .2em;
+    margin: 20px;
+    }
+.cardsBodyContainer {
+    justify-content: center;
+    align-content: center;
+    h1{
+        align-self: center;
+    }
+    
+}
+
+.cardsBodyInner {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+}   
+.card {
+      align-self: center;
+      width: 80%;
+   
+
+}
+
+#popular {
+    flex:100%
+}
+.mkAbout {
+    order: 1;
+    flex: 100%
+}
+.mkContact {
+    padding: 20px;
+    color: white;
+    flex: 50%;
+     order: 2;
+}
+.mkLocation {
+    padding: 20px;
+    color: white;
+    flex: 40%;
+    order: 3;
+}
+
+.mkAbout p {
+   
+    width:100%;
+    
+}
+

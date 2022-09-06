@@ -3,11 +3,17 @@
     padding: 20px;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     background-color: #109bc5;
     justify-content: space-around;
 }
 
 /* About Style */
+
+.mkAbout {
+    flex: 30%
+}
+
 .mkAbout h1 {
     font-size: 26px;
     padding: 20px 0 20px 0;
@@ -15,7 +21,7 @@
 }
 
 .mkAbout img {
-    background-color: var(--white);
+    background-color: white;
     width: 250px;
     padding: 10px;
     margin-bottom: 20px;
@@ -23,10 +29,8 @@
 }
 
 .mkAbout p {
-    /* white-space: pre-line;
-    overflow-wrap: break-word; */
     word-break: keep-all;
-    width: 300px;
+    width: 20vw;
     line-height: 2.5;
     font-weight: 100;
     letter-spacing: 2px;
@@ -36,19 +40,16 @@
 .mkContact {
     padding: 20px;
     color: white;
-    width: 25%
+    flex: 30%
 }
 
 .mkContact h1 {
-
     font-size: 26px;
     padding: 20px 0 20px 0;
 
 }
 
 .mkContact a {
-
-
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -80,11 +81,13 @@
 }
 
 .mkContact button {
+    cursor: pointer;
     margin: 10px;
     display: block;
     font-weight: 600;
     color: #36abce;
     padding: 10px 30px;
+
 }
 
 .mkContact input[type=text]:focus, input[type=email]:focus, textarea:focus {
@@ -95,7 +98,7 @@
 .mkLocation {
     padding: 20px;
     color: white;
-    width: 25%
+    flex: 30%
 }
 
 .mkLocation h1 {
@@ -107,69 +110,4 @@
 
 .mkLocation p {
     line-height: 2;
-}
-
-
-/* Start fredisa Learns Style */
-.fredisaLearnsContainer {
-    display: flex;
-    width: 100%;
-    overflow: auto;
-    background-color: var(--white);
-    justify-content: space-around;
-    align-items: center;
-}
-
-.fredisaLogo {
-    width: 15%;
-    padding: 8px;
-}
-
-/* .buttonsContainer {
-    padding: 10px;
-
-} */
-
-.buttonsContainer i:hover {
-    cursor: pointer;
-}
-
-.buttonsContainer input[type=button] {
-    cursor: pointer;
-    border-style: none;
-    border-radius: 5px;
-    color: var(--white);
-    padding: 12px;
-    font-weight: 600;
-    margin: 4px;
-}
-
-.buttonsContainer i {
-
-    color: var(--background);
-    opacity: 0.3;
-}
-
-.homeBtn {
-    background-color: #10a0b6;
-}
-
-.coursesBtn {
-    background-color: #d74726;
-}
-
-.lessonsBtn {
-    background-color: #800080;
-}
-
-.tourBtn {
-    background-color: #42ae18;
-}
-
-.signBtn {
-    background-color: #e11e9a
-}
-
-.studyBtn {
-    background-color: #f39317
 }

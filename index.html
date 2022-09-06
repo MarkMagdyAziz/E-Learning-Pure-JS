@@ -7,19 +7,20 @@
         <meta name="description" content="English lessons for children animated video lessons, fun games for kids">
         <link rel="icon" type="image/x-icon" href="/WebsiteLearning//Images//children.png">
         <link rel="stylesheet" href="Css/home.css">
-        <link rel="stylesheet" href="Css/navbar.css">
         <link rel="stylesheet" href="Css/footer.css">
+        <link rel='stylesheet' href='Css/s-m-screen.css' media='screen and (min-width: 480px) and (max-width: 960px)'>
+
         <script src="https://kit.fontawesome.com/da11c2efb4.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="/Images/read-card.jpg">
 
         <title>Learning English Online For Kids</title>
-        <!-- src="https://assets.pinterest.com/ext/embed.html?id=673288213029296759" -->
     </head>
 
     <body>
         <!-- Navbar -->
-        <div class="pageContent" style="background-color: var(--white);">
+        <div class="app-container">
             <div class="navbar">
-                <div>
+                <div class="header-icons">
                     <ul>
                         <li>
                             <a href="https://www.youtube.com/channel/UC-V4IF1d_RYnApk1CHYH7iQ" target="_blank"
@@ -33,70 +34,77 @@
                 </div>
                 <div class="loginForm" id="loginForm">
 
+
                     <label for="Username">Username</label>
                     <input type="text" name="Username" id="Username">
+
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password">
+
                     <input type="button" value="Login" id="loginBtn" onclick="ButLogin()">
-                    <p id="Msg"></p>
+
                 </div>
                 <div class="loggedInMsg" id="loggedInMsg">
                     <h3>Welcome <span id="WelcUser"></span></h3>
+                    <p id="Msg"></p>
                 </div>
+                <a href="javascript:void(0);" class="humb-icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-            <!-- fredisa Learns Container -->
-            <div class="fredisaLearnsContainer">
-                <img src="Images/FredisaLearns.png" alt=" FredisaLearns Logo" class="fredisaLogo">
+
+            <!-- ------------------------------------------------------------------------------------------------ -->
+            <!--  Header  Fredisa Learns-->
+
+            <div class="fredisaLearnsContainer" id="fredisaContainer">
+                <img src="Images/FredisaLearns.png" alt=" Fredisa Learns Logo" class="fredisaLogo">
                 <div class="buttonsContainer">
 
 
                     <i class="fa-solid fa-house"></i>
-                    <a href="#"></a> <input type="button" value="Home" class="homeBtn"></a>
+                    <a href="#"></a>
+                    <input type="button" value="Home" class="homeBtn"></a>
 
                     <i class="fa-solid fa-book"></i>
                     <a href="#cardsLessons"><input type="button" value="Courses" class="coursesBtn"></a>
 
                     <i class="fa-solid fa-folder-closed"></i>
-                    <a href="#popular">
-                        <input type="button" value="Popular Lessons" class="lessonsBtn"></a>
+                    <a href="#popular"><input type="button" value="Popular Lessons" class="lessonsBtn"></a>
 
                     <i class="fa-solid fa-circle-play"></i>
-                    <a href="./story.html">
-                        <input type="button" value="Story" class="tourBtn">
-                    </a>
+                    <a href="./story.html"> <input type="button" value="Story" class="tourBtn"></a>
                     <i class="fa-solid fa-user-plus"></i>
+
                     <a href="./Register.html"> <input type="button" value="Sign Up" class="signBtn"> </a>
 
                     <i class="fa-solid fa-trophy"></i>
                     <a href="./Teacher.html"> <input type="button" value="Teacher" class="studyBtn"></a>
                 </div>
             </div>
+
             <!-- Slider -->
             <!-- Slideshow container -->
             <div class="slideshow-container">
-                <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
-                    <img src="Images/slide1.jpg" style="width:100%">
+                    <img src="Images/slide1.jpg" style="width:100%; height: 80vh;">
 
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 3</div>
-                    <img src="Images/slide2.jpg" style="width:100%">
+                    <img src="Images/slide2.jpg" style="width:100%; height: 80vh;">
 
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 3</div>
-                    <img src="Images/slide3.jpg" style="width:100%">
+                    <img src="Images/slide3.jpg" style="width:100%; height: 80vh;">
 
                 </div>
 
-                <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <!-- The dots/circles -->
                 <div style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -104,67 +112,57 @@
                 </div>
             </div>
 
-            <!-- immersive Section -->
-            <div class="immersiveSection">
+            <!-- immersive Section --------------------------------------------------------------------------------------------------->
+            <section class="immersiveSection">
 
-                <div>
-                    <section>
-                        <h1>IMMERSIVE ENGLISH LESSONS FOR KIDS </h1>
-                    </section>
-                    <section>
-                        <div style="width:500px">
-                            <p>
-                                <span class="s1">Fredisa Learns </span>is a progressive English language (ESL/EFL/EAL)
-                                program
-                                for
-                                kids. It
-                                begins from an
-                                absolute beginner to
-                                early intermediate level. Children develop core knowledge in the use of English language
-                                vocabulary,
-                                grammar, spelling
-                                and sentence structures. Our English lessons for kids are immersive and feature:
-                            </p>
-                        </div>
-                        <section class="ulSection">
-                            <ul>
-                                <li class="liImmersiveSection">Animated Lesson Videos</li>
-                                <li class="liImmersiveSection">Fun Games to Practice</li>
-                                <li class="liImmersiveSection">Interactive Tests to Assess</li>
-                                <li class="liImmersiveSection">Printable Worksheets</li>
-                                <li class="liImmersiveSection">Course Progress Tracker</li>
-                                <li class="liImmersiveSection">Mobile-Friendly Activities</li>
-                                <li class="liImmersiveSection">Teaching Materials - Lots!</li>
-                            </ul>
-                        </section>
-                        <div style="width: 550px;">
-                            <p>
-                                It is a comprehensive solution for teachers and educators who seek a digital English
-                                language
-                                program to support blended
-                                learning efforts in schools or at home. Why not explore our full range of <a href="#">
-                                    course
-                                    materials </a>and <a href="#"> English lessons</a>, then
-                                <a href="#">sign up</a>?
-                                Explore Courses
-
-                            </p>
-                        </div>
-
-                    </section>
-
-                </div>
-                <div class="img-btn-Container">
+                <div class="left-immersive">
+                    <h1>IMMERSIVE ENGLISH LESSONS FOR KIDS </h1>
                     <div>
-                        <div>
-                            <img src="Images/learning.jpg" alt="Learning Image" class="immersiveImage">
+                        <p>
+                            <span class="s1">Fredisa Learns </span>is a progressive English language (ESL/EFL/EAL)
+                            program
+                            for
+                            kids. It
+                            begins from an
+                            absolute beginner to
+                            early intermediate level. Children develop core knowledge in the use of English language
+                            vocabulary,
+                            grammar, spelling
+                            and sentence structures. Our English lessons for kids are immersive and feature:
+                        </p>
+                    </div>
+                    <div class="ulSection">
+                        <ul>
+                            <li class="liImmersiveSection">Animated Lesson Videos</li>
+                            <li class="liImmersiveSection">Fun Games to Practice</li>
+                            <li class="liImmersiveSection">Interactive Tests to Assess</li>
+                            <li class="liImmersiveSection">Printable Worksheets</li>
+                            <li class="liImmersiveSection">Course Progress Tracker</li>
+                            <li class="liImmersiveSection">Mobile-Friendly Activities</li>
+                            <li class="liImmersiveSection">Teaching Materials - Lots!</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>
+                            It is a comprehensive solution for teachers and educators who seek a digital English
+                            language
+                            program to support blended
+                            learning efforts in schools or at home. Why not explore our full range of <a href="#">
+                                course
+                                materials </a>and <a href="#"> English lessons</a>, then
+                            <a href="#">sign up</a>?
+                            Explore Courses
 
-                        </div> <button><i class="fa-solid fa-book"></i> Explore Courses</button>
+                        </p>
                     </div>
 
                 </div>
-            </div>
-            <!-- ESL LESSONS FOR KIDS Cards -->
+                <div class="img-btn-Container">
+                    <img src="Images/learning.jpg" alt="Learning Image" class="immersiveImage">
+                    <button><i class="fa-solid fa-book"></i> Explore Courses</button>
+                </div>
+            </section>
+            <!-- ESL LESSONS FOR KIDS Cards ------------------------------------------------------------------------------------------------>
             <div class="cardsBodyContainer">
                 <h1>ESL LESSONS FOR KIDS</h1>
                 <a id="cardsLessons"></a>
@@ -190,8 +188,6 @@
                         <p>This is the absolute beginner basic English course for ESL kids.</p>
                         <button> Browse Lesson</button><br><br>
                     </div>
-                </div>
-                <div class="cardsBodyInner">
                     <div class="card">
                         <h3 style="background-color: #d74726;">Starter 4 Course</h3>
 
@@ -216,10 +212,10 @@
                 </div>
             </div>
 
-            <!--popular -->
-            <h1 class="pop">POPULAR LESSONS</h1>
+            <!--popular --------------------------------------------------------------------------------------------------------->
 
-            <span style="display:flex;">
+            <h1 class="poularh1">POPULAR LESSONS</h1>
+            <div class="popular-container">
                 <section id="popular">
                     <div class="soon">
                         <div class="less-card">
@@ -313,7 +309,7 @@
                         </div>
                     </div>
                 </section>
-            </span>
+            </div>
             <div class="mkFooter">
                 <div class="mkAbout">
                     <h1>ABOUT</h1>
@@ -356,7 +352,6 @@
                 </div>
             </div>
             <i class="fa-solid fa-circle-up upArrow" onclick="topFunction()" title="Go to top" id="upArrowBtn"></i>
-
         </div>
         <script src="JS/Js.js"></script>
         <script src="JS/JsLogingHome.js"></script>
