@@ -27,8 +27,11 @@ input[type=submit]:hover {
 
 
 /*register*/
-.Content {
+.content-t {
   width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 form {
