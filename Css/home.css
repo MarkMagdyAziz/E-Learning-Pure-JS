@@ -665,10 +665,3 @@ body {
 }
 
 /* Style the back side */
-.flip-card-back {
-  background-color: rgb(27, 27, 29);
-  color: rgb(94, 91, 91);
-  transform: rotateY(180deg);
-  text-align: left;
-  border: rgb(238, 235, 235) 2px inset;
-}/*# sourceMappingURL=home.css.map */
